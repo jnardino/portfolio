@@ -1,3 +1,61 @@
+:root {
+  --title-font: 'Rowdies', cursive;
+  --body-font: 'Poppins', sans-serif;
+}
+
 body {
-    background-color: aquamarine;
+    background-color: #ffff;
+    font-family: var(--body-font);
+}
+
+h1 {
+    font-family: var(--title-font);
+}
+
+.hero {
+    background-color: rgb(129, 161, 221);
+    display: block;
+    padding: 16px;
+}
+
+.hero-content {
+    display: flex;
+    text-align: start;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    line-height: 1;
+    margin: 0;
+}
+
+.hero-content h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.hero-content p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.hero-image {
+    display: flex;
+    max-width: 350px;
+    margin: 0 30px;
+}
+
+.contact-me {
+    background-color: blueviolet;
+    margin-top: 20px;
+    color: #ffff;
+}
+
+.contact-me:hover {
+    background-color: rgb(76, 6, 143);
+    color: #ffff;
 }
