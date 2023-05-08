@@ -1,16 +1,24 @@
 :root {
   --title-font: 'Rowdies', cursive;
   --body-font: 'Poppins', sans-serif;
+  --primary-color: #81A1DD;
+  --secondary-color: #0D1821;
+  --terciary-color: #EDFF71;
+  --extra-color: #DB5461;
 }
 
 body {
     background-color: #ffff;
     font-family: var(--body-font);
     margin-bottom: 40px;
+    color: var(--secondary-color);
 }
 
 h1 {
     font-family: var(--title-font);
+    font-size: 72px;
+    line-height: 1;
+    margin: 0;
 }
 
 h3 {
@@ -18,7 +26,7 @@ h3 {
 }
 
 .hero {
-    background-color: rgb(129, 161, 221);
+    background-color: var(--primary-color);
     display: block;
     padding: 16px;
 }
@@ -27,14 +35,9 @@ h3 {
     display: flex;
     text-align: start;
     margin: 0px auto;
+    max-width: 1200px;
     align-items: center;
     justify-content: center;
-}
-
-.hero-content h1 {
-    font-size: 72px;
-    line-height: 1;
-    margin: 0;
 }
 
 .hero-content h2 {
@@ -55,14 +58,13 @@ h3 {
 }
 
 .contact-me {
-    background-color: blueviolet;
+    background-color: var(--terciary-color);
     margin-top: 20px;
-    color: #ffff;
 }
 
 .contact-me:hover {
-    background-color: rgb(76, 6, 143);
-    color: #ffff;
+    background-color: var(--extra-color);
+    font-weight: bold;
 }
 
 .title-break {
@@ -75,14 +77,68 @@ h3 {
     margin-top: 40px;
 }
 
-.find-me {
-    color: blueviolet;
+.work-content-text {
+    margin-top: 20px;
+}
+
+.find-me-box {
+    color: var(--terciary-color);
     font-size: 40px;
     margin-top: 40px;
     text-align: center;
+}
+
+.find-me-box:hover {
+    transform:  scale(1.15, 1.15);
+}
+
+.find-me-box a {
+    color: var(--terciary-color);
+}
+
+.find-me-box a:hover {
+    color: var(--extra-color);
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
 }
+
+footer a {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 995px){
+    h1 {
+        font-size: 50px;
+    }
+
+    .hero-image {
+        max-width: 200px;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+
+    .hero-content h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 14px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 540px){
+     .hero-image {
+        max-width: 120px;
+        margin-left: 30px;
+        margin-right: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}    
