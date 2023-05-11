@@ -76,6 +76,18 @@ h3 {
     margin-top: 40px;
 }
 
+.visit-page-box a {
+    font-size: 40px;
+    color: var(--secondary-color);
+    transition: all 300ms ease-in-out;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.visit-page-box a:hover {
+    color: var(--extra-color);
+}
+
 .footer-box {
     background-color: var(--primary-color);
     margin-top: 40px;
@@ -96,6 +108,8 @@ h3 {
 .find-me-box a {
     display: inline-block;
     color: var(--terciary-color);
+    transition: all 300ms ease-in-out;
+    text-decoration: none;
 }
 
 .find-me-box a:hover {
@@ -134,12 +148,20 @@ footer a {
         margin: 0;
     }
 
-
 }
 @media (max-width: 768px){
     .work-content-text {
         margin-top: 20px;
     }
+
+    .visit-page-box {
+        text-align: center;
+    }
+
+    .visit-page-box a {
+        margin: 0 20px;
+        font-size: 40px;
+    } 
 }
 
 @media (max-width: 576px){
