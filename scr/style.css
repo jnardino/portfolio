@@ -10,7 +10,6 @@
 body {
     background-color: #ffff;
     font-family: var(--body-font);
-    margin-bottom: 40px;
     color: var(--secondary-color);
 }
 
@@ -77,27 +76,31 @@ h3 {
     margin-top: 40px;
 }
 
-.work-content-text {
-    margin-top: 20px;
+.footer-box {
+    background-color: var(--primary-color);
+    margin-top: 40px;
+    padding: 40px;
 }
 
 .find-me-box {
-    color: var(--terciary-color);
     font-size: 40px;
-    margin-top: 40px;
     text-align: center;
 }
 
-.find-me-box:hover {
-    transform:  scale(1.15, 1.15);
+.find-me {
+    padding: 0 20px;
+    font-size: 40px;
+    text-align: center;
 }
 
 .find-me-box a {
+    display: inline-block;
     color: var(--terciary-color);
 }
 
 .find-me-box a:hover {
     color: var(--extra-color);
+    transform: scale(1.5, 1.5);
 }
 
 footer {
