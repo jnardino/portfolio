@@ -124,6 +124,14 @@ footer {
 
 footer a {
     color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--terciary-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 @media (max-width: 992px){
