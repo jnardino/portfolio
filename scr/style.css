@@ -24,6 +24,14 @@ h3 {
     font-family: var(--title-font);
 }
 
+.container {
+    max-width: 1200px;
+}
+
+
+/* ------HOMEPAGE------ */
+
+
 .hero {
     background-color: var(--primary-color);
     display: block;
@@ -132,6 +140,19 @@ footer a:hover {
     color: var(--terciary-color);
     text-decoration: none;
     font-weight: bold;
+}
+
+/* ------ABOUT PAGE------ */
+
+.about-section {
+    margin-top: 40px;
+    align-items: center
+}
+
+.about-image {
+    display: flex;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 @media (max-width: 992px){
