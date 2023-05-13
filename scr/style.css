@@ -44,7 +44,7 @@ h3 {
     margin: 0px auto;
     max-width: 1200px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .hero-content h2 {
