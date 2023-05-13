@@ -37,6 +37,18 @@ h3 {
     background-color: var(--extra-color);
 }
 
+.title-break {
+    font-size: 40px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.divider {
+    font-family: var(--title-font);
+    font-size: 70px;
+    text-align: center;
+}
+
 
 /* ------HOMEPAGE------ */
 
@@ -73,14 +85,8 @@ h3 {
     margin-left: 30px;
 }
 
-.contact-me {
+.contact-me-button {
     margin-top: 20px;
-}
-
-.title-break {
-    font-size: 40px;
-    margin: 40px 0;
-    text-align: center;
 }
 
 .work-content-section {
@@ -161,12 +167,21 @@ footer a:hover {
 }
 
 .work-buttons-box {
-    text-align: center;
+    display:flex;
+    justify-content: flex-start;
 }
 
 .work-buttons {
-    margin: 80px 40px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
+
+.contact-me-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
 
 
 /* ------Media Query------ */
@@ -217,13 +232,22 @@ footer a:hover {
     text-align: center;
     }
 
+    .work-buttons {
+    margin-bottom: 40px;
+    margin-left: 0;
+    }
+
+    .work-buttons-box {
+    display:flex;
+    justify-content: space-evenly;
+    }
 }
 
 @media (max-width: 576px){
     .hero-image {
         max-width: 120px;
-        margin-left: 30px;
-        margin-right: 0;
+        margin-right: 5px;
+        margin-top: 5px;
         position: absolute;
         top: 0;
         right: 0;
