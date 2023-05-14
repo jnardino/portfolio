@@ -325,6 +325,10 @@ footer a:hover {
     margin-top: 16px;
     }
 
+    .nav-detail {
+    top: 58px;
+    }
+
     .navbar>.container {
         justify-content: flex-start;
     }
