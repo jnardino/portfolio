@@ -100,6 +100,14 @@ a.nav-link.active:focus, .nav-link.active:hover {
     text-decoration-color: var(--extra-color);
 }
 
+.nav-detail {
+    background-color: rgba(129, 161, 221,0.75);
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    min-height: 14px;
+}
+
 
 /* ------HOMEPAGE------ */
 
