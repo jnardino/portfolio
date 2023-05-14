@@ -108,6 +108,7 @@ a.nav-link.active:focus, .nav-link.active:hover {
     background-color: var(--primary-color);
     display: block;
     padding: 16px;
+    padding-top: 80px;
 }
 
 .hero-content {
