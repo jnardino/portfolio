@@ -50,6 +50,57 @@ h3 {
 }
 
 
+/* ------- Nav-Bar ------- */
+
+
+.navbar {
+    background-color: var(--terciary-color);
+}
+
+a.navbar-brand {
+    color: var(--secondary-color);
+    font-family: var(--title-font);
+}
+
+a.navbar-brand:focus, .navbar-brand:hover {
+    color: var(--extra-color);
+}
+
+a.nav-link {
+    color: var(--secondary-color);
+}
+
+a.nav-link:focus, .nav-link:hover {
+    color: var(--extra-color);
+    font-weight: bold;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+a.nav-link:first-of-type:focus, .nav-link:first-of-type:hover {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+a.nav-link:last-of-type:focus, .nav-link:last-of-type:hover {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a.nav-link.active {
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--primary-color);
+}
+
+a.nav-link.active:focus, .nav-link.active:hover {
+    color: var(--extra-color);
+    text-decoration-color: var(--extra-color);
+}
+
+
 /* ------HOMEPAGE------ */
 
 
@@ -156,7 +207,7 @@ footer a:hover {
 
 
 .about-section {
-    margin-top: 40px;
+    margin-top: 100px;
     align-items: center;
 }
 
