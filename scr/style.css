@@ -269,7 +269,7 @@ footer a:hover {
 }
 
 
-/* ------Front-end Work------ */
+/* ------Front-end + UI/UX Work------ */
 
 
 .icons {
@@ -302,8 +302,8 @@ footer a:hover {
         font-size: 20px;
         margin: 0;
     }
-
 }
+
 @media (max-width: 768px){
     .work-content {
         text-align: center;
@@ -358,15 +358,27 @@ footer a:hover {
 }
 
 @media (max-width: 576px){
-    .hero-image {
-        max-width: 120px;
-        margin-right: 5px;
-        margin-top: 5px;
+    .nav-menu {
+        max-width: 100px;
+        margin-right: 10px;
+        margin-top: 10px;
         position: absolute;
         top: 0;
         right: 0;
+        z-index: 1;
     }
+
+    .hero-image{
+        display: none;
+    }
+
     .hero-content {
         justify-content: flex-start;
     }
 }    
+
+@media (min-width: 575px){
+    .nav-menu {
+        display: none;
+        }
+}
