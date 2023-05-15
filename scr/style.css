@@ -272,9 +272,25 @@ footer a:hover {
 /* ------Front-end + UI/UX Work------ */
 
 
+.skills {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
 .icons {
-    margin: 20px 4px;
-    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.figma {
+    width: 20px;
+}
+
+.bootstrap {
+    width: 40px;
 }
 
 
