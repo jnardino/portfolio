@@ -258,6 +258,11 @@ footer a:hover {
     margin-right: 20px;
 }
 
+.certificate-section {
+    margin-top: 40px;
+    align-items: center;
+}
+
 .certificate {
     margin-top: 10px;
     margin-right: 12px;
@@ -355,29 +360,33 @@ footer a:hover {
     } 
 
     .about-section {
-    text-align: center;
+        text-align: center;
+    }
+
+    .certificate-section {
+        text-align: center;
     }
 
     .work-buttons {
-    margin-bottom: 40px;
-    margin-left: 0;
+        margin-bottom: 40px;
+        margin-left: 0;
     }
 
     .work-buttons-box {
-    display:flex;
-    justify-content: space-evenly;
+        display:flex;
+        justify-content: space-evenly;
     }
 
     .contact-me-box {
-    padding: 20px;
+        padding: 20px;
     }
 
     .navbar-collapse {
-    margin-top: 16px;
+        margin-top: 16px;
     }
 
     .nav-detail {
-    top: 58px;
+        top: 58px;
     }
 
     .navbar>.container {
