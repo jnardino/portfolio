@@ -273,7 +273,7 @@ footer a:hover {
 
 .certificate:hover {
     transform: scale(1.1, 1.1);
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--extra-color);
 }
 
 .certificate-box a {
