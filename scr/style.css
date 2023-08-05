@@ -255,7 +255,6 @@ footer a:hover {
 
 .work-buttons {
     margin-top: 20px;
-    margin-right: 20px;
 }
 
 .certificate-section {
@@ -370,7 +369,6 @@ footer a:hover {
 
     .work-buttons {
         margin-bottom: 40px;
-        margin-left: 0;
     }
 
     .work-buttons-box {
@@ -416,6 +414,10 @@ footer a:hover {
 
     .hero-content {
         justify-content: flex-start;
+    }
+
+    .about-image {
+        max-width: 300px;
     }
 
     .icons {
